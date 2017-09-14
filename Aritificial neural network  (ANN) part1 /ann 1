@@ -1,0 +1,51 @@
+11/05/17
+11:36 am
+
+The neuron 
+
+
+How can we recreate a neuron into a maching?
+Santiago remon drew the first neuron in 1899
+
+Neuron consists of  dendrites , neuron , axon.
+
+Dendrites are the receivers and axon is the transmitter of the neuron.
+Signal from the neuron travel down from the axon and into the the dendrite of the other neuron.
+Axon and dendrites are not connected physically of two different neurons.
+
+The connection is called synapse.
+We use the term synapse in data science and no dendrites or axon.
+
+
+Yann Lecun  
+additional reading 
+efficient backprop
+
+
+The activation function.
+
+
+1. Threshole function.
+	if x >= 0 then true
+	else if x < 0 then false 
+
+	pretty straightforward
+
+2. Sigmoid function.
+	f(x) = 1/ 1+e raised to -x 
+	Good thing about this function is it is smooth.
+
+3. Rectifire function 
+	f(x) = max(x,0)
+	one of the most used functions.
+
+4. Hyperbolic tangent function.
+	
+	f(x) =( 1 - e^-2x ) / ( 1+ e ^-2x)
+	could be used sometimes.
+
+ 	for additional reading 
+	Deep sparse rectifier neural network. 
+	Xavier Glorot et al (2011) 
+
+ 
